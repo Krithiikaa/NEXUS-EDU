@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "id": null,
+      "title": "Big Data Analytics",
+      "trainer": "Kala",
+      "duration": "12"
+    },
+    {
+      "id": 101,
+      "title": "Full Stack Fundamentals",
+      "trainer": "IBM Mentor",
+      "duration": "8 weeks"
+    }
+  ]
+}

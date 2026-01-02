@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Kiruthigaa K",
+      "department": "CSE",
+      "year": 4,
+      "email": "krithikaarajkumaar@gmail.com",
+      "phone": "9000011111"
+    },
+    {
+      "id": 2,
+      "name": "Pooja M",
+      "department": "CSE",
+      "year": 3,
+      "email": "2309poojamurugan@gmail.com",
+      "phone": "9047290889"
+    },
+    {
+      "id": 3,
+      "name": "Pavithra M",
+      "department": "CSE",
+      "year": 3,
+      "email": "pavi23125@gmail.com",
+      "phone": "9500600570"
+    },
+    {
+      "id": 4,
+      "name": "Archana M",
+      "department": "CSE",
+      "year": 3,
+      "email": "aarchana93085@gmail.com",
+      "phone": "9344168177"
+    },
+    {
+      "id": 5,
+      "name": "Anand Raj M",
+      "department": "ECE",
+      "year": 4,
+      "email": "anandhanushms@gmail.com",
+      "phone": "8124310800"
+    },
+    {
+      "id": 7,
+      "name": "Keerthi Raja V K",
+      "department": "ECE",
+      "year": 4,
+      "email": "hdkeraja@gmail.com",
+      "phone": "8825411768"
+    }
+  ]
+}
