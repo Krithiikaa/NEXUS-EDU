@@ -1,17 +1,4 @@
-Below is a **polished, high-end `README.md`** you can **directly copy–paste** into your repository’s `README.md`.
 
-It is written at **industry / hackathon / portfolio level**, includes:
-
-* Clear product positioning
-* Folder structure
-* API documentation
-* Live demo link
-* Tech stack with icons
-* Clean, professional tone
-
----
-
-```md
 # 🎓 NEXUS-EDU  
 ### Modern Student & Course Management Dashboard
 
