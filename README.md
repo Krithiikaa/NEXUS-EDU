@@ -78,7 +78,7 @@ NEXUS-EDU/
 ### Base URL
 ```
 
-[https://nexus-edu.onrender.com](https://nexus-edu.onrender.com)
+https://nexus-edu.onrender.com
 
 ````
 
