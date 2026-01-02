@@ -5,21 +5,23 @@ const studentRoutes = require("./routes/students");
 const courseRoutes = require("./routes/courses");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// APIs
+// API routes
 app.use("/api/students", studentRoutes);
 app.use("/api/courses", courseRoutes);
 
-// Serve frontend
-app.use(express.static(path.join(__dirname, "../frontend")));
+// Serve frontend (docs folder)
+const frontendPath = path.join(__dirname, "../docs");
+app.use(express.static(frontendPath));
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/index.html"));
+// Default route → UI
+app.get("*", (req, res) => {
+  res.sendFile(path.join(frontendPath, "index.html"));
 });
 
 app.listen(PORT, () => {
-  console.log(`NEXUS-EDU running at http://localhost:${PORT}`);
+  console.log(`NEXUS-EDU running on port ${PORT}`);
 });
