@@ -177,8 +177,3 @@ This project is developed for **learning, demonstration, and portfolio purposes*
 ---
 
 > *“NEXUS-EDU demonstrates a clean full-stack architecture with real-world deployment and API-driven design.”*
-
-
-
-Just tell me.
-```
